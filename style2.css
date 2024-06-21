@@ -1,0 +1,53 @@
+body {
+    background-color: #003c79;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.card {
+    max-width: 400px;
+    width: 100%;
+    border: none;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+.card-header {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem;
+    font-size: 1.5rem;
+}
+.card-body {
+    padding: 2rem;
+    background-color: #817b7b;
+}
+.form-label {
+    font-weight: bold;
+    color: #000000;
+}
+.form-control {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    height: 40px;
+    
+    font-size: 1rem;
+}
+.form-check-label {
+    color: #333;
+    font-weight: normal;
+}
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 0.75rem;
+    font-size: 1rem;
+    font-weight: bold;
+}
+.btn-primary:hover {
+    background-color: #0056b3;
+}

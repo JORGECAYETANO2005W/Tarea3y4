@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000000;
+    margin: 0;
+}
+h1{
+    color: #c5c5c5;
+}
+.container {
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    background-color: #ffffff;
+}
+
+.card-title {
+    text-align: center;
+    color: #2b598a;
+}
+.input-group-text {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+}
+.btn-primary {
+    background-color: #ca2929;
+    border-bottom: 0em;
+}
+.btn-primary:hover {
+    background-color: #c5c5c5;
+}
